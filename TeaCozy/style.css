@@ -1,12 +1,19 @@
 * {
   font-family: helvetica;
-  font-size: 22px;
   color: seashell;
-  background-color: black;
-  opacity: 0.9;
   text-align: center;
 }
+body {
+  background-color: black;
+  margin: 0;
+  font-size: 22px;
+  opacity: 0.9;
+}
+h1, h2, h3 {
+  font-weight: bold;
+}
 header {
+  top: 0px;
   background-color: black;
   height: 69px;
   display: flex;
@@ -19,30 +26,120 @@ header {
   z-index: 1;
 }
 header nav {
-  width: 25%;
+  width: 24.35%;
   display: flex;
-  justify-content: space-around;
-  padding-right: 10px;
+  justify-content: space-between;
+  margin-right: 10px;
 }
 header img {
+  margin-top: 5px;
   height: 50px;
   padding-left: 10px;
 }
 header a {
   text-decoration: underline;
 }
+#cheekyfirst  {
+position: relative;
+top: 69px;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+#cheekyfirst h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#cheekyfirst h4 {
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
 .cheekyhealthymission {
   height: 700px;
   width: 1200px;
-  position: relative;
-  top:69px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
 }
 .cheekyimagecontent {
+  width: 1200px;
 }
-.cheekymissioncontent h2 {
+#cheekysecond {
+  position: relative;
+  top:120px;
+  display: flex;
+  justify-content: center;
+}
+.cheekyteatype {
+  width: 1000px;
+}
+.cheekysmolimages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cheek h4 {
+  padding: 5px;
+  margin: 0px;
+}
+.cheek img {
+  margin: 0px;
+  margin:10px 10px;
+  height: 200px;
+  width: 300px;
+}
+
+#cheekythird {
+  line-height: 2;
+  position: relative;
+  top: 200px;
+  display: flex;
+  justify-content: flex-start;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  flex-direction: column;
+  padding-top: 70px;
+}
+#cheekythird h2 {
+  margin-bottom: 0px;
+  margin-top: 0px;
 
 }
-.cheekymissioncontent h4 {
-
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  line-height: 1;
+}
+.cheekylocationcard {
+  flex-basis: 280px;
+  height: 257px;
+  margin: 0px 20px 5px 20px;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cheekyimagecontent, .cheekylocationcard {
+background-color: black;
+}
+.cheekyfourth {
+  top: 185px;
+  position: relative;
+  margin-top: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.cheekycontact {
+  height: 200px;
+}
+.cheekycopyright h5 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
 }
